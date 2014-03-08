@@ -16,6 +16,7 @@ html, body{
 	color: white;
 }
 a::selection{
+	color: white;
 	text-decoration: underline !important;
 }
 a{
