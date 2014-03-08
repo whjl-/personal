@@ -9,6 +9,7 @@ html, body{
 }
 ::selection{
 	background: rgb(79,181,201);
+	color: white;
 }
 h1{
 	font-size: 2em;
