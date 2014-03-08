@@ -17,7 +17,7 @@ html, body{
 }
 a::selection{
 	color: white;
-	text-decoration: underline !important;
+	border-bottom: 1px solid white;
 }
 a{
 	color: rgb(230,88,53);
