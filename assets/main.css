@@ -17,6 +17,10 @@ a::selection{
 }
 a{
 	color: rgb(230,88,53);
+	text-decoration: none;
+}
+a:hover{
+	color: rgb(79,181,201);
 }
 h1{
 	font-size: 2em;
