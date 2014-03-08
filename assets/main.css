@@ -15,16 +15,13 @@ html, body{
 	background: rgb(79,181,201);
 	color: white;
 }
-a::selection{
-	color: white;
-	border-bottom: 1px solid white;
-}
 a{
 	color: rgb(230,88,53);
 	text-decoration: none;
 }
 a:hover{
 	color: rgb(79,181,201);
+	text-decoration: underline;
 }
 h1{
 	font-size: 2em;
