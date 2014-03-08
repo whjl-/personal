@@ -5,10 +5,9 @@ $(document).ready(function(){
     || navigator.userAgent.match(/iPad/i)
     || navigator.userAgent.match(/iPod/i)
     || navigator.userAgent.match(/BlackBerry/i)
-    || navigator.userAgent.match(/WindowsPhone/i)){
+    || navigator.userAgent.match(/Windows Phone/i)){
       console.log("mobile");
     }else{
-      $(function() {
         $('.ss').click(function() {
           if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
             var target = $(this.hash);
@@ -21,7 +20,6 @@ $(document).ready(function(){
             }
           }
         });
-    });
     console.log("not-mobile");
   }
 });
