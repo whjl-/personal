@@ -11,6 +11,13 @@ html, body{
 	background: rgb(79,181,201);
 	color: white;
 }
+a::selection{
+	background: rgb(230,88,53);
+	color: white;
+}
+a{
+	color: rgb(230,88,53);
+}
 h1{
 	font-size: 2em;
 }
