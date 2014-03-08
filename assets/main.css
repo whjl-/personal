@@ -2,3 +2,13 @@
   font-family: 'Mercury';
   src: url('mr.ttf') format('truetype'),
 }
+html, body{
+	font-size: 87.5%;
+	font-family: 'Mercury';
+}
+h1{
+	font-size: 2em;
+}
+h2{
+	font-size: 1.5em;
+}
