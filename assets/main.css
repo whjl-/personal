@@ -8,7 +8,7 @@ html, body{
 	color: #49535E;
 	transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
-	justify-content: space-between;
+	text-align: justify;
 }
 ::selection{
 	background: rgb(79,181,201);
