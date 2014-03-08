@@ -3,7 +3,7 @@
   src: url('mr.ttf') format('truetype'),
 }
 html, body{
-	font-size: 87.5%;
+	font-size: 100%;
 	font-family: "Mercury", Georgia, serif;
 	color: #49535E;
 }
