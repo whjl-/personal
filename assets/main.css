@@ -7,6 +7,9 @@ html, body{
 	font-family: "Mercury", Georgia, serif;
 	color: #49535E;
 }
+html::selection{
+	background: rgb(79,181,201);
+}
 h1{
 	font-size: 2em;
 }
