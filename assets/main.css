@@ -4,13 +4,11 @@
 }
 html, body{
 	font-size: 87.5%;
-	font-family: 'Mercury';
+	font-family: "Mercury", Georgia, serif;
 }
 h1{
 	font-size: 2em;
-	font-family: 'Mercury';
 }
 h2{
 	font-size: 1.5em;
-	font-family: 'Mercury';
 }
