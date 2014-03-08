@@ -12,6 +12,18 @@ h1{
 h2{
 	font-size: 1.5em;
 }
+.sm{
+	font-size: 0.8em;
+}
+.left, .right{
+	text-transform: uppercase;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
 #wrapper{
 	width: 40%;
 	margin: 0 auto;
