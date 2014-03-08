@@ -22,5 +22,6 @@ $(document).ready(function(){
           }
         });
     });
+    console.log("not-mobile");
   }
 });
