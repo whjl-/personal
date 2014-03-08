@@ -58,6 +58,9 @@ h2{
 	margin-bottom: 7%;
 }
 @media screen and (max-width: 800px) {
+	html, body{
+		text-align: left !important;
+	}
 	#wrapper{
 		width: 90%;
 		padding: 2.5%;
