@@ -57,6 +57,10 @@ h2{
 	font-weight: normal;
 	margin-bottom: 7%;
 }
+#foot{
+	font-size: 0.7em;
+	color: rgba(73,83,94,0.5);
+}
 @media screen and (max-width: 800px) {
 	html, body{
 		text-align: left !important;
