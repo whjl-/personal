@@ -44,6 +44,7 @@ h2{
 #wrapper{
 	width: 30%;
 	margin: 0 auto;
+	overflow: hidden;
 }
 #top{
 	top: 0;
