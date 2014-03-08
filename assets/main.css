@@ -52,3 +52,8 @@ h2{
 .top-heading{
 	font-weight: normal;
 }
+@media screen and (min-width: 781px) and (max-width: 840px) {
+	#wrapper{
+		width: 100%;
+	}
+}
