@@ -58,7 +58,8 @@ h2{
 	margin-bottom: 7%;
 }
 #foot{
-	font-size: 0.7em;
+	font-size: 0.6em;
+	text-transform: uppercase;
 	color: rgba(73,83,94,0.5);
 }
 @media screen and (max-width: 800px) {
