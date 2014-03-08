@@ -52,9 +52,8 @@ h2{
 .top-heading{
 	font-weight: normal;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
 	#wrapper{
 		width: 100%;
-		background-color: pink;
 	}
 }
