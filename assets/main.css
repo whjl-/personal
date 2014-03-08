@@ -40,3 +40,8 @@ h2{
 	width: 30%;
 	margin: 0 auto;
 }
+#top{
+	top: 0;
+	padding: 10px;
+	margin-bottom: 20px;
+}
