@@ -9,6 +9,7 @@ html, body{
 	transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
 	text-align: justify;
+	line-height: 1.5em;
 }
 ::selection{
 	background: rgb(79,181,201);
