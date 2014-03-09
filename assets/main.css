@@ -69,7 +69,7 @@ h2{
 }
 @media screen and (max-width: 1024px) and (min-width: 1024px){
 	html, body{
-		text-align: left !important;
+		text-align: justify !important;
 	}
 	#wrapper{
 		width: 90%;
