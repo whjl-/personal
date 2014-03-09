@@ -58,16 +58,7 @@ h2{
 .ss{
 	text-align: center;
 }
-@media screen and (max-width: 800px){
-	html, body{
-		text-align: left !important;
-	}
-	#wrapper{
-		width: 90%;
-		padding: 2.5%;
-	}
-}
-@media only screen and (device-width: 768px) and (orientation:landscape){
+@media screen and (max-width: 1024px){
 	html, body{
 		text-align: left !important;
 	}
