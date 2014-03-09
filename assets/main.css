@@ -27,6 +27,9 @@ h2{
 .sm{
 	font-size: 0.70em;
 }
+.sm:hover{
+	color: rgb(79,181,201);
+}
 .left, .right{
 	text-transform: uppercase;
 }
