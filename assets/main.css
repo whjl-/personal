@@ -58,7 +58,7 @@ h2{
 .ss{
 	text-align: center;
 }
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 1024px){
 	html, body{
 		text-align: left !important;
 	}
