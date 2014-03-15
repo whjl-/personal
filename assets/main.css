@@ -18,6 +18,9 @@ a{
 a:hover{
 	color: rgb(79,181,201);
 }
+img{
+	max-width: 100%;
+}
 h1{
 	font-size: 2em;
 }
