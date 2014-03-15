@@ -31,6 +31,9 @@ h2{
 .sm{
 	font-size: 0.70em;
 }
+.ub{
+	font-weight: normal;
+}
 .left, .right{
 	text-transform: uppercase;
 }
