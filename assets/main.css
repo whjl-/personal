@@ -73,6 +73,9 @@ h2{
 		width: 90%;
 		padding: 2.5%;
 	}
+	#foot{
+		position: inherit;
+	}
 }
 @media screen and (max-width: 1024px) and (min-width: 1024px){
 	#wrapper{
