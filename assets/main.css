@@ -71,6 +71,7 @@ h2{
 pre{
 	float: left;
 	min-width: 100%;
+	overflow: scroll !important;
 }
 @media screen and (max-width: 800px){
 	html, body{
