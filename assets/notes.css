@@ -4,6 +4,7 @@
 .nh:hover{
 	border-bottom: 1px solid #49535E;
 	overflow: hidden;
+	margin: 0;
 }
 .nhd{
 	overflow: visible !important;
