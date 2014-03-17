@@ -75,7 +75,7 @@
 	git commit -a -m "$commit_message"
 	git push origin master
 					</pre>
-					<p><p><i>n.b. The <span class="code">yuicompressor-2.4.8.jar</span> file <b>must</b> be save in a location like this <span class="code">C:\Program Files\Git\share\java</span></i></p>This file can be run from git bash using a command in this format: <span class="code">deploy.sh [commit message] [js folder location] [css folder location]</span> so like this  <span class="code">deploy.sh "Update homepage" assets/js assets/css</span>. It minifys css and javascript in the specified directories and then pushes to a GitHub repository which has a webhook to ping my <span class="code">deploy.php</span> on a Git push. Here is my <span class="code">deploy.php</span> page:</p>
+					<p><p><i>n.b. The <span class="code">yuicompressor-2.4.8.jar</span> file <b>must</b> be saved in a location like this <span class="code">C:\Program Files\Git\share\java</span></i></p>This file can be run from git bash using a command in this format: <span class="code">deploy.sh [commit message] [js folder location] [css folder location]</span> so like this  <span class="code">deploy.sh "Update homepage" assets/js assets/css</span>. It minifys css and javascript in the specified directories and then pushes to a GitHub repository which has a webhook to ping my <span class="code">deploy.php</span> on a Git push. Here is my <span class="code">deploy.php</span> page:</p>
 					<pre>
 	include 'deploy.conf';
 	if(is_dir($fol)){
