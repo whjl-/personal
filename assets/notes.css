@@ -2,10 +2,7 @@
 	cursor: pointer;
 }
 .nh:hover{
-	border-bottom: 1px solid #49535E;
-	overflow: hidden;
-	margin: 0;
-	padding: 0;
+	text-decoration: underline;
 }
 .nhd{
 	overflow: visible !important;
