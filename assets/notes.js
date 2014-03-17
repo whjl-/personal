@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$(".np").css("display", "none");
-	$(".nh").click(function(){
-		$(this).css("display", "auto");
+	$(".nhd").click(function(){
+		$(".np", this).css("display", "auto");
 	});
 });
