@@ -68,6 +68,10 @@ h2{
 .ss{
 	text-align: center;
 }
+pre{
+	float: left;
+	min-width: 100%;
+}
 @media screen and (max-width: 800px){
 	html, body{
 		text-align: left !important;
