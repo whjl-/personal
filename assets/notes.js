@@ -1,5 +1,5 @@
 $(document).ready(function(){
 	$(".nh").click(function(){
-		jQuery(".np", this).css("display", "block");
+		jQuery("p", this).css("display", "block");
 	});
 });
