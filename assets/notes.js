@@ -1,10 +1,10 @@
 $(document).ready(function(){
 	$(".np").css("display", "none");
-	$(".nhd").click(function(){
-		if($(".np", this).css("display") == "block"){
-			$(".np", this).css("display", "none");
+	$(".nhd .nh").click(function(){
+		if($(".np", this).parent().css("display") == "block"){
+			$(".np", this).parent().css("display", "none");
 		}else{
-			$(".np", this).css("display", "auto");
+			$(".np", this).parent().css("display", "auto");
 		}
 	});
 });
