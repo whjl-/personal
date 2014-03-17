@@ -19,7 +19,51 @@
 			<p></p>
 			<div class="nhd">
 				<h2 class="ub nh">deploy.sh</h2>
-				<p class="np">Some test notes here...</p>
+				<p class="np">This is my deploy.sh file:<br>
+					<pre>
+						#!/bin/bash -e
+						J="$2"
+						if [ -f "$J/site.min.js" ];
+						then
+						  rm $J/site.min.js
+						fi
+						allFiles=($J/*.js)
+						length=${#allFiles[@]}
+						for ((i=0; i<$length; i++))
+						do
+						   cat ${allFiles[$i]} >> $J/site.js
+						done
+						java -jar /usr/share/java/yuicompressor-2.4.8.jar -o $J/site.min.js $J/site.js
+						if [ -f "$J/site.js" ];
+						then
+						  rm $J/site.js
+						fi
+						echo "js minified"
+
+						C="$3"
+						if [ -f "$C/site.min.css" ];
+						then
+						  rm $C/site.min.css
+						fi
+						allFiles=($C/*.css)
+						length=${#allFiles[@]}
+						for ((i=0; i<$length; i++))
+						do
+						   cat ${allFiles[$i]} >> $C/site.css
+						done
+						java -jar /usr/share/java/yuicompressor-2.4.8.jar -o $C/site.min.css $C/site.css
+						if [ -f "$C/site.css" ];
+						then
+						  rm $C/site.css
+						fi
+						echo "css minified"
+
+						commit_message="$1"
+						git add .
+						git commit -a -m "$commit_message"
+						git push origin master
+					</pre>
+				</p>
 			</div>
 		</div>
 		<div id="foot">
