@@ -72,6 +72,9 @@ pre{
 	float: left;
 	min-width: 100%;
 }
+.code{
+	font-family: Courier;
+}
 @media screen and (max-width: 800px){
 	html, body{
 		text-align: left !important;
