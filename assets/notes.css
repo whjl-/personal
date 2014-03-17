@@ -3,6 +3,7 @@
 }
 .nh:hover{
 	border-bottom: 1px solid #49535E;
+	overflow: hidden;
 }
 .nhd{
 	overflow: visible !important;
