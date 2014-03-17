@@ -1,6 +1,9 @@
 .nh{
 	cursor: pointer;
 }
+.nh:hover{
+	text-decoration: underline;
+}
 .nhd{
 	overflow: visible !important;
 }
