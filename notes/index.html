@@ -76,6 +76,13 @@
 	unlink("master.zip");
 	shell_exec("mv ".$repos."-master ".$fol);
 					</pre>
+					<p>and the <span class="code">deploy.conf</span> looks something like this:</p>
+					<pre>
+	$username = "wlangford";	//Your GitHub username
+	$repos = "personal";		//Your repository name
+	$branch = "master";			//Your branch you'd like us to use
+	$fol = "site";				//The folder the site will be saved in
+					</pre>
 				</div>
 			</div>
 		</div>
