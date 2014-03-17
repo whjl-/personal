@@ -65,7 +65,7 @@
 	git commit -a -m "$commit_message"
 	git push origin master
 					</pre>
-					<p>and it pushes to a GitHub repository which has a webhook to ping my <span class="code">deploy.php</span> on a Git push. Here is my <span class="code">deploy.php</span> page:</p>
+					<p>This file can be run from git bash using a command like this: <span class="code">deploy.sh [commit message] [js folder location] [css folder location]</span> so like this  <span class="code">deploy.sh "Update homepage" assets/js assets/css</span>. It pushes to a GitHub repository which has a webhook to ping my <span class="code">deploy.php</span> on a Git push. Here is my <span class="code">deploy.php</span> page:</p>
 					<pre>
 	include 'deploy.conf';
 	if(is_dir($fol)){
@@ -83,6 +83,7 @@
 	$branch = "master";			//Your branch you'd like us to use
 	$fol = "site";				//The folder the site will be saved in
 					</pre>
+
 				</div>
 			</div>
 		</div>
