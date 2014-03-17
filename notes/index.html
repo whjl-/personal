@@ -66,7 +66,6 @@ git push origin master
 					</pre>
 					<p>and it pushes to a GitHub repository which has a webhook to ping my <span class="code">deploy.php</span> on a Git push. Here is my <span class="code">deploy.php</span> page:</p>
 					<pre>
-
 include 'deploy.conf';
 if(is_dir($fol)){
 	shell_exec("rm -rf ".$fol);
