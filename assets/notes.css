@@ -1,3 +1,6 @@
 .nh{
 	cursor: pointer;
 }
+.nhd{
+	overflow: visible !important;
+}
