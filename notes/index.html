@@ -25,6 +25,17 @@
 					<pre>
 	#!/bin/bash -e
 	J="$2"
+	C="$3"
+
+	if [ -f "$J/site.js" ];
+	then
+	  rm $J/site.js
+	fi
+	if [ -f "$C/site.css" ];
+	then
+	  rm $C/site.css
+	fi
+
 	if [ -f "$J/site.min.js" ];
 	then
 	  rm $J/site.min.js
@@ -42,7 +53,6 @@
 	fi
 	echo "js minified"
 
-	C="$3"
 	if [ -f "$C/site.min.css" ];
 	then
 	  rm $C/site.min.css
