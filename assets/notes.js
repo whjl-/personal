@@ -10,6 +10,8 @@ $(document).ready(function(){
 	$(".nhd .nh").click(function(){
 		if($(this).parent().find('.np').css("display") == "block"){
 			$(this).parent().find('.np').css("display", "none");
+			window.location.hash = "#";
+			return false;
 		}else{
 			$(this).parent().find('.np').css("display", "auto");
 			window.location.hash = "#" + cToS($(this).html());
