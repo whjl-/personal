@@ -18,7 +18,7 @@ $(document).ready(function(){
 	var id = url.substring(url.lastIndexOf('#') + 1);
 	var nh = "";
 	$(".nh").each(function(i, obj){
-		nh = $(this).html().toLowerCase();
+		nh = $(this).html().trim();
 		nh = cToS(nh);
 		if(nh == id){
 			$(this).parent().find('.np').css("display", "block");
