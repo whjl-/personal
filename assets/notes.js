@@ -12,6 +12,8 @@ $(document).ready(function(){
 			$(this).parent().find('.np').css("display", "none");
 		}else{
 			$(this).parent().find('.np').css("display", "auto");
+			window.location.hash = cToS($(this).html());
+			return false;
 		}
 	});
 	var url = document.URL;
