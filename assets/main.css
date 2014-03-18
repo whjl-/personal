@@ -75,6 +75,15 @@ pre{
 .code{
 	font-family: "Courier New", Courier, monospace;
 }
+.nh{
+	cursor: pointer;
+}
+.nh:hover{
+	text-decoration: underline;
+}
+.nhd{
+	overflow: visible !important;
+}
 @media screen and (max-width: 800px){
 	html, body{
 		text-align: left !important;
