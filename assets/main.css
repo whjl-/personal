@@ -73,7 +73,7 @@ pre{
 	min-width: 100%;
 }
 .code{
-	font-family: Courier;
+	font-family: "Courier New", Courier, monospace;
 }
 @media screen and (max-width: 800px){
 	html, body{
