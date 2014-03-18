@@ -20,6 +20,7 @@ $(document).ready(function(){
 	$(".nh").each(function(i, obj){
 		nh = $(this).html().toLowerCase();
 		nh = cToS(nh);
+		alert(nh);
 		if(nh == id){
 			$(this).parent().find('.np').css("display", "block");
 		}
