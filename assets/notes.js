@@ -18,7 +18,6 @@ $(document).ready(function(){
 		if(nh == id){
 			$(this).parent().find('.np').css("display", "block");
 		}
-		alert(id);
-		alert(nh);
+	
 	});
 });
