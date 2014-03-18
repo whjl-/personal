@@ -1,3 +1,10 @@
+function cToS(Text){
+    return Text
+        .toLowerCase()
+        .replace(/[^\w ]+/g,'')
+        .replace(/ +/g,'-')
+        ;
+}
 $(document).ready(function(){
 	$(".np").css("display", "none");
 	$(".nhd .nh").click(function(){
@@ -12,9 +19,7 @@ $(document).ready(function(){
 	var nh = "";
 	$(".nh").each(function(i, obj){
 		nh = $(this).html().toLowerCase();
-		nh = nh.replace('/[^\-\s\pN\pL]/g', '');
-		nh = nh.replace('/[\-\s]/g', '-');
-		nh = $.trim(nh);
+		nh = cToS(nh);
 		if(nh == id){
 			$(this).parent().find('.np').css("display", "block");
 		}
