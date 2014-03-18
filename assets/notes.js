@@ -6,6 +6,18 @@ function cToS(Text){
         ;
 }
 $(document).ready(function(){
+	var txt = "";
+	$.ajax({
+		url: 'assets/count.php',
+		type: 'post',
+		data  : { info: txt },
+		success: function(data) {
+			console.log(data);
+        },
+		error : function(err, req) {
+			alert("Error!");
+    	}
+	});
 	$(".lnk").click(function(){
 		window.location = "../";
 	});
