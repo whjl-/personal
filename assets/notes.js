@@ -1,9 +1,9 @@
 function cToS(Text){
-    return Text
-        .toLowerCase()
-        .replace(/[^\w ]+/g,'')
-        .replace(/ +/g,'-')
-        ;
+	return Text
+		.toLowerCase()
+		.replace(/[^\w ]+/g,'')
+		.replace(/ +/g,'-')
+		;
 }
 $(document).ready(function(){
 	var txt = "";
@@ -15,7 +15,7 @@ $(document).ready(function(){
 			console.log(data);
         },
 		error : function(err, req) {
-			alert("Error!");
+			console.log("Error!");
     	}
 	});
 	$(".lnk").click(function(){
