@@ -7,7 +7,9 @@ $(document).ready(function(){
 		nh = nh.replace('/[^\-\s\pN\pL]+/g', '');
 		nh = nh.replace('/[\-\s]+/g', '-');
 		nh = $.trim(nh);
-		alert(nh);
+		if(nh == id){
+			$(this).parent().find('.np').css("display", "auto");
+		}
 	});
 	$(".np").css("display", "none");
 	$(".nhd .nh").click(function(){
