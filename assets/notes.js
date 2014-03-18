@@ -6,6 +6,9 @@ function cToS(Text){
         ;
 }
 $(document).ready(function(){
+	$(".lnk").click(function(){
+		window.location = "../";
+	});
 	$(".np").css("display", "none");
 	$(".nhd .nh").click(function(){
 		if($(this).parent().find('.np').css("display") == "block"){
