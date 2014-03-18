@@ -8,7 +8,7 @@ function cToS(Text){
 $(document).ready(function(){
 	var txt = "";
 	$.ajax({
-		url: '../assets/count.php',
+		url: '/couk/site/assets/count.php',
 		type: 'post',
 		data  : { info: txt },
 		success: function(data) {
