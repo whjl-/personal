@@ -12,8 +12,8 @@ $(document).ready(function(){
 	var nh = "";
 	$(".nh").each(function(i, obj){
 		nh = $(this).html().toLowerCase();
-		nh = nh.replace('/[^\-\s\pN\pL]+/g', '');
-		nh = nh.replace('/[\-\s]+/g', '-');
+		nh = nh.replace('/[^\-\s\pN\pL]/g', '');
+		nh = nh.replace('/[\-\s]/g', '-');
 		nh = $.trim(nh);
 		if(nh == id){
 			$(this).parent().find('.np').css("display", "block");
