@@ -8,7 +8,7 @@ $(document).ready(function(){
 		nh = nh.replace('/[\-\s]+/g', '-');
 		nh = $.trim(nh);
 		if(nh == id){
-			$(obj).parent().find('.np').css("display", "auto");
+			$(this).parent().find('.np').css("display", "block");
 		}
 	});
 	$(".np").css("display", "none");
