@@ -4,6 +4,7 @@ $(document).ready(function(){
 	var nh = "";
 	$(".nh").each(function(i, obj){
 		nh = $(this).val().toLowerCase();
+		alert(nh);
 		nh = nh.replace('/[^\-\s\pN\pL]+/g', '');
 		nh = nh.replace('/[\-\s]+/g', '-');
 		nh = $.trim(nh);
