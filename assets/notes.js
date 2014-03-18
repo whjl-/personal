@@ -3,8 +3,7 @@ $(document).ready(function(){
 	var id = url.substring(url.lastIndexOf('#') + 1);
 	var nh = "";
 	$(".nh").each(function(i, obj){
-		nh = $(this).val().toLowerCase();
-		alert(nh);
+		nh = $(this).html().toLowerCase();
 		nh = nh.replace('/[^\-\s\pN\pL]+/g', '');
 		nh = nh.replace('/[\-\s]+/g', '-');
 		nh = $.trim(nh);
