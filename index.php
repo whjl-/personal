@@ -1,3 +1,8 @@
+<?php
+if($_SERVER['REMOTE_ADDR'] == "31.221.116.210"){
+	die();
+}
+?>
 <!doctype html>
 <html lang="en" id="html">
 <head>
