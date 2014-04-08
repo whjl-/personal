@@ -17,7 +17,7 @@ if($_SERVER['REMOTE_ADDR'] == "31.221.116.210"){
 <body>
 	<div id="wrapper">
 		<div id="top">
-			<p class="sm"><span class="left">Will Langford</span><span class="right">whjl.info</span></p>
+			<p class="sm"><span class="left">Will Langford</span><span class="right">whjl.co.uk</span></p>
 		</div>
 		<div id="main">
 			<h1 class="center top-heading">About</h1>
